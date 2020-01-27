@@ -65,7 +65,7 @@ public class searchServlet extends HttpServlet {
 	            request.setAttribute("data", list);
 	            request.getRequestDispatcher("table.jsp").forward(request, response);
 			}else {
-				response.sendRedirect("index.jsp");
+				response.sendRedirect("index.html");
 			}
 		          
 		}
@@ -120,7 +120,7 @@ public class searchServlet extends HttpServlet {
 	            request.setAttribute("data", list);
 	            request.getRequestDispatcher("table.jsp").forward(request, response);
 			}else {
-				response.sendRedirect("index.jsp");
+				response.sendRedirect("index.html");
 			}
 		          
 		}

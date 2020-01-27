@@ -21,7 +21,7 @@ public class logoutServlet extends HttpServlet {
 		
 		//set the variable that controls the login/logout to false
 		request.getSession().setAttribute("loginYapildi", false);
-		request.getRequestDispatcher("index.jsp").include(request, response);  
+		request.getRequestDispatcher("index.html").include(request, response);  
          
         
 	}
